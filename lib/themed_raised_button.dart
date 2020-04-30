@@ -31,7 +31,7 @@ class ThemedRaisedButton extends StatelessWidget {
       child: Container(
         alignment: Alignment.center,
         child: child,
-        height: buttonType == ButtonType.normal ? 44 : 24,
+        height: buttonType == ButtonType.normal ? 44 : 32,
       ),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
     );
