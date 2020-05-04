@@ -1,11 +1,14 @@
-library themedraisedbutton;
-
 import 'package:flutter/material.dart';
 
+/// ThemedRaisedButton widget, make main UI source more clean.
 class ThemedRaisedButton extends StatelessWidget {
+  /// call back for button tap action
   final Function() onPressed;
+  /// Widget in the button
   final Widget child;
+  /// Button background color
   final Color color;
+  /// Provide two types of button, [ButtonType.small] and [ButtonType.normal]
   final ButtonType buttonType;
   final ButtonTextTheme textTheme;
   final FocusNode focusNode;
